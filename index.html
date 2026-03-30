@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Mathematics</title>
+    
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    
+    <style>
+        /* CSS Styling - Gives it that classic, clean academic paper look */
+        body {
+            font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fafafa;
+        }
+        main {
+            background-color: white;
+            padding: 2.5rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
+            border-radius: 4px;
+        }
+        header {
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        h1 {
+            margin-top: 0;
+            margin-bottom: 0.2rem;
+            color: #111;
+        }
+        .subtitle {
+            color: #555;
+            font-size: 1.1rem;
+            margin-top: 0;
+        }
+        nav {
+            margin-top: 1.5rem;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #0366d6;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        h2 {
+            border-bottom: 1px solid #eaeaea;
+            padding-bottom: 0.5rem;
+            color: #222;
+        }
+        .intro-container {
+            display: flex;
+            gap: 2rem;
+            align-items: flex-start;
+        }
+        .profile-pic {
+            width: 180px;
+            height: 220px;
+            background-color: #eee;
+            border: 1px solid #ccc;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            color: #777;
+            font-size: 0.9rem;
+            flex-shrink: 0;
+        }
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+        .contact-info li {
+            margin-bottom: 0.5rem;
+        }
+        /* Make it look good on mobile phones */
+        @media (max-width: 600px) {
+            .intro-container {
+                flex-direction: column;
+            }
+            .profile-pic {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 3/4;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <header>
+            <h1>Your Name</h1>
+            <p class="subtitle">Ph.D. Student in Mathematics<br>
+            University of Somewhere</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#research">Research</a>
+                <a href="#teaching">Teaching</a>
+                <a href="YOUR_CV.pdf" target="_blank">CV (PDF)</a>
+            </nav>
+        </header>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="intro-container">
+                <div>
+                    <p>Hi! I am a second-year Ph.D. student in the <a href="#">Department of Mathematics</a> at the University of Somewhere. My advisor is Dr. Jane Smith.</p>
+                    <p>Prior to this, I completed my B.S. in Mathematics at Another University, where I worked on undergraduate research in graph theory.</p>
+                    
+                    <ul class="contact-info">
+                        <li><strong>Email:</strong> your.email@university.edu</li>
+                        <li><strong>Office:</strong> Math Building, Room 404</li>
+                    </ul>
+                </div>
+                <div class="profile-pic">
+                    [Insert Photo Here]
+                </div>
+            </div>
+        </section>
+
+        <section id="research">
+            <h2>Research Interests</h2>
+            <p>My primary research interests lie at the intersection of differential geometry and algebraic topology. Currently, I am studying properties of smooth manifolds.</p>
+            
+            <p>Because this site uses MathJax, I can easily write equations inline, like $e^{i\pi} + 1 = 0$, or as block displays, such as Stokes' Theorem:</p>
+            
+            <p>
+                $$ \int_{\partial \Omega} \omega = \int_{\Omega} d\omega $$
+            </p>
+
+            <p>I am currently organizing the Graduate Student Geometry Seminar. See our schedule <a href="#">here</a>.</p>
+        </section>
+
+        <section id="teaching">
+            <h2>Teaching</h2>
+            <p>I am passionate about undergraduate math education. Here are the courses I am involved with:</p>
+            <ul>
+                <li><strong>Fall 2026:</strong> Teaching Assistant for MATH 101 (Calculus I)</li>
+                <li><strong>Spring 2026:</strong> Grader for MATH 305 (Linear Algebra)</li>
+                <li><strong>Fall 2025:</strong> Teaching Assistant for MATH 101 (Calculus I)</li>
+            </ul>
+        </section>
+
+    </main>
+
+</body>
+</html>
