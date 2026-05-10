@@ -85,6 +85,16 @@
         .contact-info li {
             margin-bottom: 0.5rem;
         }
+        
+        /* Writing list styling */
+        .writing-list {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        .writing-list li {
+            margin-bottom: 10px;
+        }
+
         /* Make it look good on mobile phones */
         @media (max-width: 600px) {
             .intro-container {
@@ -108,7 +118,8 @@
             <nav>
                 <a href="#about">About</a>
                 <a href="#research">Research</a>
-                <a href="Resume.pdf" target="Resume.pdf">CV (PDF)</a>
+                <a href="#writing">Writing</a>
+                <a href="Resume.pdf" target="_blank">CV (PDF)</a>
             </nav>
         </header>
 
@@ -117,8 +128,6 @@
             <div class="intro-container">
                 <div>
                     <p>Hi! I am a second-year undergraduate majoring in math at UC Berkeley. I am advised by Richard Bamler.</p>
-                   
-                    
                     <ul class="contact-info">
                         <li><strong>Email:</strong> firstname lastname at berkeley dot edu</li>
                     </ul>
@@ -131,15 +140,24 @@
 
         <section id="research">
             <h2>Research Interests</h2>
-            <p>I am interested in differential geometry. Currently I am learning about minimal surfaces and mean curvature flow. </p>
-            
-           
+            <p>I am interested in differential geometry. Currently I am learning about minimal surfaces and mean curvature flow.</p>
+        </section>
+
+        <section id="writing">
+            <h2>Writing</h2>
+            <ul class="writing-list">
+                <li>
+                    <a href="INSERT PAPER HERE" target="_blank">Title of Your First Paper or Notes</a> (Year)
+                    <br>
+                    <em>Brief description or abstract of what this piece of writing is about.</em>
+                </li>
+                </ul>
         </section>
 
         <section id="teaching">
             <h2>Teaching</h2>
-            <p> I offer private tutoring for pure math upper divs at Berkeley. Specifically, Math 104, 110, 113, 185, and other geometry/topology/analysis related classes. To discuss rates please email me. 
-            </p>
+            <p>I offer private tutoring for pure math upper divs at Berkeley. Specifically, Math 104, 110, 113, 185, and other geometry/topology/analysis related classes. To discuss rates please email me.</p>
+        </section>
 
     </main>
 
