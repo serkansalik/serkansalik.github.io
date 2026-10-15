@@ -1,1 +1,4 @@
+User-agent: *
+Allow: /
 
+Sitemap: https://serkansalik.github.io/sitemap.xml
